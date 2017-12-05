@@ -1,0 +1,30 @@
+README
+
+#####HOWTO:
+
+
+Enter directory: ../CMPT433Project/server and execute Makefile via: 
+$ make
+
+
+Open 2 terminals on Beaglbone (SSH twice)
+
+One terminal goes to directory cd /mnt/remote/node/home-automation-iter2-copy
+^In here we run SERVER code via:
+# node server.js
+
+The OTHER terminal goes to directory cd /mnt/remote/myApps
+^In here we run EXECUTABLE code via:
+./homeserver
+
+Open Internet Browser and enter in url path:
+192.168.7.2:3042 ([ip address]:[port])
+
+Et voila!
+
+
+
+REFS:
+
+Toggle Switch HTML code:
+	https://www.w3schools.com/howto/howto_css_switch.asp
