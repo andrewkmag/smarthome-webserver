@@ -4,6 +4,6 @@
 	"description": "Relay commands between the client web browser and the C application.",
 	"dependencies": {
 		"socket.io": "~0.9.6",
-		"mime": "~1.2.7"
+		"mime": "~2.4.4"
 	}
 }
